@@ -1,0 +1,14 @@
+<?php
+$servername='localhost';
+$username='said';
+$password='Said@9595';
+$dbname='cookies';
+
+
+$conn=new mysql(localhost,said,Said@9595,cookies);
+
+if($conn->connect_error){
+die('connection failed'.$conn->connect_error);
+
+echo "connected succesfully";
+?>
